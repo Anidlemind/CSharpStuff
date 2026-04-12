@@ -1,6 +1,7 @@
 ﻿using System.Globalization;
-using System.Text.RegularExpressions;
 // For converting Cyrilyc literals to English for special values in Div operation
+using System.Text.RegularExpressions;
+// For format validation
 
 Calculator calculator = new Calculator();
 calculator.MainLoop();
